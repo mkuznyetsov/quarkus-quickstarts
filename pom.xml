@@ -33,6 +33,7 @@
         <module>google-cloud-functions-http-quickstart</module>
         <module>hibernate-orm-quickstart</module>
         <module>hibernate-reactive-quickstart</module>
+        <module>hibernate-reactive-stateless-quickstart</module>
         <module>hibernate-reactive-routes-quickstart</module>
         <module>grpc-plain-text-quickstart</module>
         <module>grpc-tls-quickstart</module>
@@ -97,6 +98,7 @@
         <module>spring-boot-properties-quickstart</module>
         <module>spring-data-rest-quickstart</module>
         <module>stork-quickstart</module>
+        <module>stork-kubernetes-quickstart</module>
         <module>tests-with-coverage-quickstart</module>
         <module>tika-quickstart</module>
         <module>validation-quickstart</module>
@@ -114,8 +116,8 @@
         <extensions>
             <extension>
                 <groupId>io.quarkus.bot</groupId>
-                <artifactId>build-reporting-maven-extension</artifactId>
-                <version>1.0.5</version>
+                <artifactId>build-reporter-maven-extension</artifactId>
+                <version>2.2.0</version>
             </extension>
         </extensions>
     </build>
